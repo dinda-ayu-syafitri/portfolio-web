@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Jura&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
