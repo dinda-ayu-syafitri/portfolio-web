@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>
+    <div className="bg-theme-dark-blue text-theme-off-white">
       <section>Hero</section>
       <section>Parallax</section>
       <section>Services</section>
