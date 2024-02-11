@@ -1,10 +1,12 @@
 import { Navbar } from "./components/navbar/Navbar";
+import { HeroSection } from "./modules/hero-section/HeroSection";
 
 const App = () => {
   return (
     <div className="bg-theme-dark-blue text-theme-off-white">
       <Navbar />
-      <section id="hero">Hero</section>
+      <HeroSection />
+
       <section id="parallax1">Parallax</section>
       <section id="aboutMe">About Me</section>
       <section id="parallax2">Parallax</section>

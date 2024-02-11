@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <div className="fixed bg-theme-light-grey  bg-opacity-30 w-full py-5 px-[15%] flex justify-between">
+    <div className="fixed bg-theme-light-grey  bg-opacity-30 w-full py-5 px-[15%] flex justify-between z-30">
       <div>
         <a href="/#hero">DINDA</a>
       </div>

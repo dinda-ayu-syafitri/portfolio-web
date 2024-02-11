@@ -10,7 +10,12 @@ export default {
           grey: "#6a7285",
           "light-grey": "#c4c4c4",
           red: "#f74464",
+          orange: "#E67D48",
         },
+      },
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+        jura: ["Jura", "sans-serif"],
       },
     },
   },
