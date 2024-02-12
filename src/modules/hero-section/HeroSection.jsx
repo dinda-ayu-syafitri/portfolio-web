@@ -40,13 +40,13 @@ export const HeroSection = () => {
         whileInView={"animateToLeft"}
         className="absolute top-0 flex w-fit gap-5"
       >
-        <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
+        <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
           Website Developer
         </h3>
-        <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
+        <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
           Website Developer
         </h3>
-        <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
+        <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
           Website Developer
         </h3>
       </motion.div>
