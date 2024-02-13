@@ -1,6 +1,7 @@
 import { Navbar } from "./components/navbar/Navbar";
 import { AboutMe } from "./modules/aboutMe-section/AboutMe";
 import { HeroSection } from "./modules/hero-section/HeroSection";
+import { Projects } from "./modules/projects/Projects";
 import { SkillsExpertise } from "./modules/skills-expertise/SkillsExpertise";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <HeroSection />
       <AboutMe />
       <SkillsExpertise />
+      <Projects />
       {/* <section id="parallax1">Parallax</section> */}
       {/* <section id="aboutMe">About Me</section> */}
       <section id="parallax2">Parallax</section>
