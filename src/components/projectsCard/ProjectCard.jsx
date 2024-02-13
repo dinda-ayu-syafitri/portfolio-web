@@ -31,9 +31,9 @@ export const ProjectCard = ({
           </div>
         </div>
 
-        <div className="bg-theme-orange flex justify-center rounded-xl py-2 ">
+        <button className="bg-theme-orange flex justify-center rounded-xl py-2 ">
           View Project
-        </div>
+        </button>
       </div>
     </div>
   );
