@@ -12,6 +12,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
+import { motion } from "framer-motion";
 
 export const Projects = () => {
   const pagination = {
@@ -124,9 +125,20 @@ export const Projects = () => {
         </div>
       </div>
 
-      <button className="flex mx-auto justify-center items-center py-2 px-8 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2">
+      <motion.button
+        className="flex mx-auto justify-center items-center py-2 px-8 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2"
+        initial={{ opacity: 0.6 }}
+        whileHover={{
+          scale: 1.02,
+          transition: { duration: 0.2 },
+          backgroundColor: "#ff7e50",
+          color: "#fff",
+        }}
+        whileTap={{ scale: 0.9 }}
+        whileInView={{ opacity: 1 }}
+      >
         See More of My Projects
-      </button>
+      </motion.button>
     </section>
   );
 };
