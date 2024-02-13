@@ -12,6 +12,16 @@ export const AboutMe = () => {
 
   const textAnimation = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
   const bgAnimation = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+
+  const textAnimationVariants = {
+    initial: { scale: 0.5, opacity: 0 },
+    animate: {
+      scale: 1,
+      opacity: 1,
+      transition: { duration: 1, type: "spring", bounce: 0.5 },
+    },
+  };
+
   return (
     <section
       id="aboutMe"
@@ -28,6 +38,9 @@ export const AboutMe = () => {
       ></motion.div>
       <motion.div
         style={{ y: textAnimation }}
+        variants={textAnimationVariants}
+        initial="initial"
+        whileInView="animate"
         className="w-[90vw] md:w-[50vw] text-xl text-center absolute"
       >
         <p className="mb-5">
