@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className="fixed bg-theme-light-grey  bg-opacity-30 w-full py-3 px-[15%] flex items-center justify-between z-30">
       <div>
