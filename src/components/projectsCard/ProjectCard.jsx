@@ -32,8 +32,8 @@ export const ProjectCard = ({
     },
   };
   return (
-    <div className="flex flex-col md:flex-row gap-8 rounded-xl bg-theme-dark-blue border-2 border-theme-orange p-5 h-[70vh] md:h-[60vh] mb-8">
-      <div className={`w-1/2 h-full bg-cover bg-center rounded-lg`}>
+    <div className="flex flex-col md:flex-row gap-3 md:gap-8 rounded-xl bg-theme-dark-blue border-2 border-theme-orange p-2 md:p-5 h-[70vh] md:h-[60vh] mb-8">
+      <div className={`w-full md:w-1/2 h-full bg-cover bg-center rounded-lg`}>
         <img
           src={ProjectThumbnail}
           alt=""
@@ -41,8 +41,8 @@ export const ProjectCard = ({
         />
       </div>
       {/* <img src={ProjectThumbnail} alt={`${ProjectTitle} Thumbnail`} /> */}
-      <div className="w-1/2 flex flex-col justify-between">
-        <div className="flex flex-col gap-5">
+      <div className="w-full md:w-1/2 flex flex-col justify-between">
+        <div className="flex flex-col gap-2 md:gap-5">
           <motion.div
             className="flex flex-col gap-5"
             variants={textVariants}
@@ -50,14 +50,16 @@ export const ProjectCard = ({
             whileInView={"animate"}
           >
             <motion.a href={ProjectLink} variants={textVariants}>
-              <h4 className="text-4xl text-theme-orange font-jura font-bold hover:underline">
+              <h4 className="text-xl md:text-4xl text-theme-orange font-jura font-bold hover:underline">
                 {ProjectTitle} <LuLink size={25} className="inline" />
               </h4>
             </motion.a>
-            <motion.p variants={textVariants}>{ProjectDesc}</motion.p>
+            <motion.p variants={textVariants} className="hidden md:block">
+              {ProjectDesc}
+            </motion.p>
           </motion.div>
           <motion.div
-            className="flex justify-start flex-wrap gap-3"
+            className="flex justify-start flex-wrap gap-1 md:gap-3"
             variants={badgeVariants}
             initial="initial"
             whileInView="animate"

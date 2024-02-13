@@ -24,10 +24,10 @@ export const Projects = () => {
   };
   return (
     <section className="py-20">
-      <h3 className="text-3xl md:text-6xl font-jura font-bold text-center mb-5 md:mb-8">
+      <h3 className="text-3xl md:text-6xl font-jura font-bold text-center mb-3 md:mb-8">
         Projects
       </h3>
-      <div className="flex mx-[5vw] gap-5">
+      <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5">
         <div className="swiper-button-prev text-theme-off-white flex justify-center items-center cursor-pointer">
           <IoIosArrowDropleftCircle size={50} />
         </div>
