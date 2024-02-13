@@ -27,7 +27,7 @@ export const Projects = () => {
         Projects
       </h3>
       <div className="flex mx-[5vw] gap-5">
-        <div className="swiper-button-prev text-theme-off-white flex justify-center items-center">
+        <div className="swiper-button-prev text-theme-off-white flex justify-center items-center cursor-pointer">
           <IoIosArrowDropleftCircle size={50} />
         </div>
 
@@ -119,14 +119,14 @@ export const Projects = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <div className="swiper-button-next text-theme-off-white flex justify-center items-center">
+        <div className="swiper-button-next text-theme-off-white flex justify-center items-center cursor-pointer">
           <IoIosArrowDroprightCircle size={50} />
         </div>
       </div>
 
-      <div className="flex mx-auto justify-center items-center py-2 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2">
+      <button className="flex mx-auto justify-center items-center py-2 px-8 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2">
         See More of My Projects
-      </div>
+      </button>
     </section>
   );
 };

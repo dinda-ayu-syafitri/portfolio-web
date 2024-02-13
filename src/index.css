@@ -32,3 +32,8 @@ section {
   color: #fff;
   background: #e67d48;
 }
+
+.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
