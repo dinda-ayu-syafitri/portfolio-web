@@ -22,15 +22,32 @@ export const Projects = () => {
       return '<div class="' + className + '">' + "</div>";
     },
   };
+
+  const navSliderVariants = {
+    initial: { opacity: 0.6 },
+    whileHover: {
+      scale: 1.02,
+      transition: { duration: 0.2 },
+      color: "#ff7e50",
+    },
+    whileTap: { scale: 0.9 },
+  };
+
   return (
     <section className="py-20">
       <h3 className="text-3xl md:text-6xl font-jura font-bold text-center mb-3 md:mb-8">
         Projects
       </h3>
       <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5">
-        <div className="swiper-button-prev text-theme-off-white flex justify-center items-center cursor-pointer">
+        <motion.div
+          className="swiper-button-prev text-theme-off-white flex justify-center items-center cursor-pointer"
+          variants={navSliderVariants}
+          initial="initial"
+          whileHover={"whileHover"}
+          whileTap={"whileTap"}
+        >
           <IoIosArrowDropleftCircle size={50} />
-        </div>
+        </motion.div>
 
         <Swiper
           spaceBetween={50}
@@ -120,9 +137,15 @@ export const Projects = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <div className="swiper-button-next text-theme-off-white flex justify-center items-center cursor-pointer">
+        <motion.div
+          className="swiper-button-next text-theme-off-white flex justify-center items-center cursor-pointer"
+          variants={navSliderVariants}
+          initial="initial"
+          whileHover={"whileHover"}
+          whileTap={"whileTap"}
+        >
           <IoIosArrowDroprightCircle size={50} />
-        </div>
+        </motion.div>
       </div>
 
       <motion.button
