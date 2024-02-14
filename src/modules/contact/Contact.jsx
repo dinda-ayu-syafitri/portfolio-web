@@ -1,10 +1,35 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Footer } from "../../components/footer/Footer";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from "react-icons/io5";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const ref = useRef();
+  const formRef = useRef();
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_cimth4c", "template_meb768e", formRef.current, {
+        publicKey: "CRRqyZGjYNoCWWbqs",
+      })
+      .then(
+        () => {
+          //   console.log("SUCCESS!");
+          setSuccess(true);
+        },
+        (error) => {
+          setError(true);
+          setErrorMessage(error.text);
+          //   console.log("FAILED...", error.text);
+        }
+      );
+  };
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -94,6 +119,8 @@ export const Contact = () => {
           </motion.div>
         </div>
         <motion.form
+          ref={formRef}
+          onSubmit={sendEmail}
           variants={formVariants}
           initial="initial"
           whileInView="animate"
@@ -109,6 +136,7 @@ export const Contact = () => {
             <input
               type="text"
               id="name"
+              name="name"
               className="bg-theme-off-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Your Name"
               required
@@ -123,6 +151,7 @@ export const Contact = () => {
             </label>
             <input
               type="email"
+              name="email"
               id="email"
               className="bg-theme-off-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Your Email"
@@ -139,6 +168,7 @@ export const Contact = () => {
             <input
               type="text"
               id="subject"
+              name="subject"
               className="bg-theme-off-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Your Name"
               required
@@ -153,15 +183,29 @@ export const Contact = () => {
             </label>
             <textarea
               id="message"
+              name="message"
               rows="4"
               className="bg-theme-off-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
               placeholder="Message"
               required
             />
           </div>
-          <button className="bg-theme-orange text-bg-theme-off-white font-jura font-bold text-lg py-2.5 px-5 rounded-lg hover:bg-theme-dark-orange">
+          <button
+            className="bg-theme-orange text-bg-theme-off-white font-jura font-bold text-lg py-2.5 px-5 rounded-lg hover:bg-theme-dark-orange"
+            type="submit"
+          >
             Send
           </button>
+          {success && (
+            <p className="text-theme-off-white text-center font-jura mt-2">
+              Message sent! Please wait for my response on your email!
+            </p>
+          )}
+          {error && (
+            <p className="text-theme-orange font-jura font-bold mt-2">
+              {errorMessage}
+            </p>
+          )}
         </motion.form>
       </div>
       <Footer />
