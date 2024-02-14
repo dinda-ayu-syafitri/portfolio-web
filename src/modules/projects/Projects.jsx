@@ -13,6 +13,7 @@ import {
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
   const pagination = {
@@ -34,7 +35,7 @@ export const Projects = () => {
   };
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="projects">
       <h3 className="text-3xl md:text-6xl font-jura font-bold text-center mb-3 md:mb-8">
         Projects
       </h3>
@@ -147,21 +148,22 @@ export const Projects = () => {
           <IoIosArrowDroprightCircle size={50} />
         </motion.div>
       </div>
-
-      <motion.button
-        className="flex mx-auto justify-center items-center py-2 px-8 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2"
-        initial={{ opacity: 0.6 }}
-        whileHover={{
-          scale: 1.02,
-          transition: { duration: 0.2 },
-          backgroundColor: "#ff7e50",
-          color: "#fff",
-        }}
-        whileTap={{ scale: 0.9 }}
-        whileInView={{ opacity: 1 }}
-      >
-        See More of My Projects
-      </motion.button>
+      <Link to="/projects-archive">
+        <motion.button
+          className="flex mx-auto justify-center items-center py-2 px-8 bg-theme-off-white text-theme-orange max-w-[90vw] md:max-w-[60vw] rounded-lg mt-2"
+          initial={{ opacity: 0.6 }}
+          whileHover={{
+            scale: 1.02,
+            transition: { duration: 0.2 },
+            backgroundColor: "#ff7e50",
+            color: "#fff",
+          }}
+          whileTap={{ scale: 0.9 }}
+          whileInView={{ opacity: 1 }}
+        >
+          See More of My Projects
+        </motion.button>
+      </Link>
     </section>
   );
 };
