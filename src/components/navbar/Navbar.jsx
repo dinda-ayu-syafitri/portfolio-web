@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { IoMenu, IoClose } from "react-icons/io5";
+import {
+  IoMenu,
+  IoClose,
+  IoLogoLinkedin,
+  IoLogoGithub,
+  IoMail,
+} from "react-icons/io5";
 
 export const Navbar = () => {
   const [open, setOpen] = useState(true);
@@ -73,52 +79,74 @@ export const Navbar = () => {
             className="bg-theme-dark-blue bg-opacity-80 h-screen w-[20vw]"
           ></motion.div>
 
-          <div className="bg-theme-orange h-screen w-[80vw] py-3 flex flex-col">
-            <button
-              onClick={() => setOpen(!open)}
-              className="md:hidden flex justify-end mb-8 px-5 "
-            >
-              <IoClose size={44} />
-            </button>
-            <motion.div
-              className="flex flex-col text-center"
-              variants={navbarVariants}
-              initial="closed"
-              animate="open"
-            >
-              <motion.a
-                variants={navbarVariants}
+          <div className="bg-theme-orange h-screen w-[80vw] py-3 flex flex-col justify-between">
+            <div className="flex flex-col">
+              <button
                 onClick={() => setOpen(!open)}
-                href="/#aboutMe"
-                className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                className="md:hidden flex justify-end mb-8 px-5 "
               >
-                About Me
-              </motion.a>
-              <motion.a
+                <IoClose size={44} />
+              </button>
+              <motion.div
+                className="flex flex-col text-center"
                 variants={navbarVariants}
-                onClick={() => setOpen(!open)}
-                href="/#skills-expertise"
-                className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                initial="closed"
+                animate="open"
               >
-                Skills & Expertise
-              </motion.a>
-              <motion.a
-                variants={navbarVariants}
-                onClick={() => setOpen(!open)}
-                href="/#projects"
-                className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                <motion.a
+                  variants={navbarVariants}
+                  onClick={() => setOpen(!open)}
+                  href="/#aboutMe"
+                  className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                >
+                  About Me
+                </motion.a>
+                <motion.a
+                  variants={navbarVariants}
+                  onClick={() => setOpen(!open)}
+                  href="/#skills-expertise"
+                  className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                >
+                  Skills & Expertise
+                </motion.a>
+                <motion.a
+                  variants={navbarVariants}
+                  onClick={() => setOpen(!open)}
+                  href="/#projects"
+                  className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                >
+                  Projects
+                </motion.a>
+                <motion.a
+                  variants={navbarVariants}
+                  onClick={() => setOpen(!open)}
+                  href="/#contact"
+                  className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                >
+                  Contact
+                </motion.a>
+              </motion.div>
+            </div>
+            <div className="flex justify-center gap-10 w-full px-5 mb-5">
+              <a
+                href="mailto:dindasyafitri@gmail.com"
+                className="hover:text-theme-dark-blue"
               >
-                Projects
-              </motion.a>
-              <motion.a
-                variants={navbarVariants}
-                onClick={() => setOpen(!open)}
-                href="/#contact"
-                className="hover:bg-theme-dark-blue hover:text-theme-orange py-5"
+                <IoMail />
+              </a>
+              <a
+                href="https://github.com/dinda-ayu-syafitri"
+                className="hover:text-theme-dark-blue"
               >
-                Contact
-              </motion.a>
-            </motion.div>
+                <IoLogoGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/dinda-ayu-syafitri/"
+                className="hover:text-theme-dark-blue"
+              >
+                <IoLogoLinkedin />
+              </a>
+            </div>
           </div>
         </motion.div>
       )}
