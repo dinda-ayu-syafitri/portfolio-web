@@ -26,7 +26,7 @@ export const SkillsExpertise = () => {
       id="skills-expertise"
       className="flex flex-col md:flex-row justify-center justify-items-center items-center gap-10 text-lg"
     >
-      <div className="flex justify-start md:justify-center justify-items-center flex-col w-full md:w-2/3 px-5 md:px-[15%] order-2 md:order-1 h-2/3 md:h-full">
+      <div className="flex justify-start md:justify-center justify-items-center flex-col w-full md:w-2/3 px-5 md:px-[15%] order-2 md:order-1 h-3/4 md:h-full">
         <motion.p
           className="mb-8"
           variants={variants}
@@ -67,7 +67,7 @@ export const SkillsExpertise = () => {
           </motion.div>
         </div>
       </div>
-      <div className="flex justify-center items-center justify-items-center bg-theme-off-white h-1/3 md:h-full w-full md:w-1/3 text-theme-dark-blue px-5 order-1 md:order-2">
+      <div className="flex justify-center items-center justify-items-center bg-theme-off-white h-1/4 md:h-full w-full md:w-1/3 text-theme-dark-blue px-5 order-1 md:order-2 md:pt-0 pt-14">
         <motion.h3
           className="text-3xl md:text-6xl font-jura font-bold"
           variants={variants}
