@@ -22,6 +22,15 @@ export const Contact = () => {
       transition: { duration: 1, type: "spring", bounce: 0.5 },
     },
   };
+
+  const formVariants = {
+    initial: { opacity: 0, y: 100 },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 1, type: "spring", bounce: 0.5 },
+    },
+  };
   return (
     <section
       id="contact"
@@ -38,16 +47,31 @@ export const Contact = () => {
       ></motion.div>
       <div className="flex justify-between justify-items-center items-center h-full flex-wrap z-10 pt-5">
         <div className="w-[100vw] md:w-[40vw] bg-theme-off-white bg-opacity-10 h-[20vh] md:h-full flex justify-center flex-col items-center">
-          <div className=" mt-10 md:mt-0 mx-5 md:mx-0">
-            <h3 className="font-jura text-3xl md:text-6xl font-bold mb-1 md:mb-5">
+          <motion.div
+            style={{ y: textAnimation }}
+            variants={textAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            className=" mt-10 md:mt-0 mx-5 md:mx-0"
+          >
+            <motion.h3
+              variants={textAnimationVariants}
+              className="font-jura text-3xl md:text-6xl font-bold mb-1 md:mb-5"
+            >
               Contact Me
-            </h3>
-            <div className="pl-2 text-sm md:text-xl hidden md:block">
+            </motion.h3>
+            <motion.div
+              variants={textAnimationVariants}
+              className="pl-2 text-sm md:text-xl hidden md:block"
+            >
               <p>Want to work together?</p>
               <p>Feel free to contact me!</p>
               <p>I’m open to freelancing!</p>
-            </div>
-            <div className=" gap-10 mb-5 text-xl pl-2 mt-2 md:mt-5 flex">
+            </motion.div>
+            <motion.div
+              variants={textAnimationVariants}
+              className=" gap-10 mb-5 text-xl pl-2 mt-2 md:mt-5 flex"
+            >
               <a
                 href="mailto:dindasyafitri@gmail.com"
                 className="hover:text-theme-orange"
@@ -66,10 +90,15 @@ export const Contact = () => {
               >
                 <IoLogoLinkedin />
               </a>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </div>
-        <form className="md:w-[50vw] w-[100vw] flex justify-center flex-col bg-theme-dark-blue bg-opacity-50 rounded-xl p-5 mx-3 md:mx-10">
+        <motion.form
+          variants={formVariants}
+          initial="initial"
+          whileInView="animate"
+          className="md:w-[50vw] w-[100vw] flex justify-center flex-col bg-theme-dark-blue bg-opacity-50 rounded-xl p-5 mx-3 md:mx-10 mt-0 md:mt-10"
+        >
           <div className="mb-5">
             <label
               htmlFor="name"
@@ -133,7 +162,7 @@ export const Contact = () => {
           <button className="bg-theme-orange text-bg-theme-off-white font-jura font-bold text-lg py-2.5 px-5 rounded-lg hover:bg-theme-dark-orange">
             Send
           </button>
-        </form>
+        </motion.form>
       </div>
       <Footer />
     </section>
