@@ -64,11 +64,11 @@ export const Contact = () => {
     >
       <motion.div
         style={{ y: bgAnimation }}
-        className="bg-[url('./parallax-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0 opacity-25"
+        className="bg-[url('/parallax-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0 opacity-25"
       ></motion.div>
       <motion.div
         style={{ x: bgAnimation }}
-        className="bg-[url('./contact-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0 opacity-50"
+        className="bg-[url('/contact-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0 opacity-50"
       ></motion.div>
       <div className="flex justify-between justify-items-center items-center h-full flex-wrap z-10 pt-5">
         <div className="w-[100vw] md:w-[40vw] bg-theme-off-white bg-opacity-10 h-[20vh] md:h-full flex justify-center flex-col items-center">

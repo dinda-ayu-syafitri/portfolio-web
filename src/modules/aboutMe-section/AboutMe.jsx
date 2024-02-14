@@ -30,11 +30,11 @@ export const AboutMe = () => {
     >
       <motion.div
         style={{ y: bgAnimation }}
-        className="bg-[url('./parallax-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0"
+        className="bg-[url('/parallax-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0"
       ></motion.div>
       <motion.div
         style={{ x: bgAnimation }}
-        className="bg-[url('./parallax-bg-2.svg')] w-[100%] h-[100%] bg-cover absolute top-0"
+        className="bg-[url('/parallax-bg-2.svg')] w-[100%] h-[100%] bg-cover absolute top-0"
       ></motion.div>
       <motion.div
         style={{ y: textAnimation }}
