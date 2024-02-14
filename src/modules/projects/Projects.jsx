@@ -25,7 +25,7 @@ export const Projects = () => {
   };
 
   const navSliderVariants = {
-    initial: { opacity: 0.6 },
+    initial: { scale: 1 },
     whileHover: {
       scale: 1.02,
       transition: { duration: 0.2 },
@@ -40,14 +40,18 @@ export const Projects = () => {
         Projects
       </h3>
       <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5">
-        <motion.div
-          className="swiper-button-prev text-theme-off-white flex justify-center items-center cursor-pointer"
-          variants={navSliderVariants}
-          initial="initial"
-          whileHover={"whileHover"}
-          whileTap={"whileTap"}
-        >
-          <IoIosArrowDropleftCircle size={50} />
+        <motion.div className="text-theme-off-white flex justify-center items-center ">
+          <motion.div
+            variants={navSliderVariants}
+            initial="initial"
+            whileHover={"whileHover"}
+            whileTap={"whileTap"}
+          >
+            <IoIosArrowDropleftCircle
+              size={50}
+              className="swiper-button-prev cursor-pointer"
+            />
+          </motion.div>
         </motion.div>
 
         <Swiper
@@ -138,14 +142,18 @@ export const Projects = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <motion.div
-          className="swiper-button-next text-theme-off-white flex justify-center items-center cursor-pointer"
-          variants={navSliderVariants}
-          initial="initial"
-          whileHover={"whileHover"}
-          whileTap={"whileTap"}
-        >
-          <IoIosArrowDroprightCircle size={50} />
+        <motion.div className="text-theme-off-white flex justify-center items-center ">
+          <motion.div
+            variants={navSliderVariants}
+            initial="initial"
+            whileHover={"whileHover"}
+            whileTap={"whileTap"}
+          >
+            <IoIosArrowDroprightCircle
+              size={50}
+              className="swiper-button-next cursor-pointer"
+            />
+          </motion.div>
         </motion.div>
       </div>
       <Link to="/projects-archive">
