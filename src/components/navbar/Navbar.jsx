@@ -9,7 +9,7 @@ import {
 } from "react-icons/io5";
 
 export const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const navbarVariants = {
     closed: { opacity: 0, x: 100 },
@@ -45,16 +45,24 @@ export const Navbar = () => {
       </div>
       <div className=" justify-around gap-10 text-md hidden md:flex ">
         <div>
-          <a href="/#aboutMe">About Me</a>
+          <a href="/#aboutMe" className="hover:text-theme-orange">
+            About Me
+          </a>
         </div>
         <div>
-          <a href="/#skills-expertise">Skills & Expertise</a>
+          <a href="/#skills-expertise" className="hover:text-theme-orange">
+            Skills & Expertise
+          </a>
         </div>
         <div>
-          <a href="/#projects">Projects</a>
+          <a href="/#projects" className="hover:text-theme-orange">
+            Projects
+          </a>
         </div>
         <div>
-          <a href="/#contact">Contact</a>
+          <a href="/#contact" className="hover:text-theme-orange">
+            Contact
+          </a>
         </div>
       </div>
       <div className={`flex md:hidden`}>
