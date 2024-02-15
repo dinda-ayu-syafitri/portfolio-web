@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Badge } from "../badge/Badge";
 import { LuLink } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 export const ProjectCard = ({
   ProjectTitle,
@@ -32,16 +33,18 @@ export const ProjectCard = ({
     },
   };
   return (
-    <div className="flex flex-col md:flex-row gap-3 md:gap-8 rounded-xl bg-theme-dark-blue border-2 border-theme-orange p-2 md:p-5 h-[70vh] md:h-[60vh] mb-8">
-      <div className={`w-full md:w-1/2 h-full bg-cover bg-center rounded-lg`}>
+    <div className="flex flex-col md:flex-row gap-3 md:gap-8 rounded-xl bg-theme-dark-blue border-2 border-theme-orange p-2 md:p-5 md:h-[60vh] mb-8">
+      <div
+        className={`w-full h-fit md:h-full flex justify-center md:w-1/2 bg-cover bg-center rounded-lg`}
+      >
         <img
           src={ProjectThumbnail}
           alt=""
-          className="object-cover w-full h-full rounded-lg"
+          className="object-contain w-full rounded-lg"
         />
       </div>
       {/* <img src={ProjectThumbnail} alt={`${ProjectTitle} Thumbnail`} /> */}
-      <div className="w-full md:w-1/2 flex flex-col justify-between">
+      <div className="w-full h-full md:w-1/2 flex flex-col justify-between">
         <div className="flex flex-col gap-2 md:gap-5">
           <motion.div
             className="flex flex-col gap-5"
@@ -49,7 +52,11 @@ export const ProjectCard = ({
             initial="initial"
             whileInView={"animate"}
           >
-            <motion.a href={ProjectLink} variants={textVariants}>
+            <motion.a
+              href={ProjectLink}
+              variants={textVariants}
+              target="_blank"
+            >
               <h4 className="text-xl md:text-4xl text-theme-orange font-jura font-bold hover:underline">
                 {ProjectTitle} <LuLink size={25} className="inline" />
               </h4>
@@ -71,9 +78,8 @@ export const ProjectCard = ({
             ))}
           </motion.div>
         </div>
-
-        <motion.button
-          initial={{ opacity: 0.6 }}
+        <motion.div
+          initial={{ opacity: 0.6, backgroundColor: "#ff7e10" }}
           whileHover={{
             scale: 1.02,
             transition: { duration: 0.5 },
@@ -81,10 +87,12 @@ export const ProjectCard = ({
           }}
           whileTap={{ scale: 0.9 }}
           whileInView={{ opacity: 1 }}
-          className="bg-theme-orange flex justify-center rounded-xl py-2 "
+          className="bg-theme-orange flex justify-center rounded-xl py-2 cursor-pointer "
         >
-          View Project
-        </motion.button>
+          <Link to={ProjectLink} target="_blank">
+            View Project
+          </Link>
+        </motion.div>
       </div>
     </div>
   );

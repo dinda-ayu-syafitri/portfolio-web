@@ -36,7 +36,7 @@ export const Projects = () => {
 
   return (
     <section className="py-20" id="projects">
-      <h3 className="text-3xl md:text-6xl font-jura font-bold text-center mb-3 md:mb-8">
+      <h3 className="text-3xl md:text-6xl font-jura font-bold text-center my-5 md:mb-8">
         Projects
       </h3>
       <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5">
@@ -48,8 +48,8 @@ export const Projects = () => {
             whileTap={"whileTap"}
           >
             <IoIosArrowDropleftCircle
-              size={50}
-              className="swiper-button-prev cursor-pointer"
+              // size={50}
+              className="swiper-button-prev cursor-pointer text-[30px] md:text-[50px]"
             />
           </motion.div>
         </motion.div>
@@ -67,17 +67,36 @@ export const Projects = () => {
         >
           <SwiperSlide>
             <ProjectCard
-              ProjectThumbnail={"./porto/porto1.png"}
-              ProjectTitle={"Lantera by Sakubi Teknologi Indonesia"}
+              ProjectThumbnail={"./porto/dNotes.png"}
+              ProjectTitle={"dNotes"}
               ProjectDesc={
-                "Lantera which stands for Lansia Sejahtera is a web based application developed to contribute in achieving SDGs in Good Health and Well Being by providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly."
+                "dNotes is A note taking website to capture, manage, and access notes everywhere and anywhere. Developed using React JS, HTML, CSS, Javascript, Tailwind, Supabase, this website got a lot of features such as authentication, CRUD, and many more. With responsive and clean design, dNotes offer a great user experience."
               }
-              ProjectLink={"https://dev.kader.lantera.sakubiacademy.com"}
+              ProjectLink={"https://dnotes-the-notes.netlify.app/"}
               ProjectTags={[
-                "Laravel",
-                "Bootstrap",
-                "Blade",
-                "MySql",
+                "ReactJs",
+                "ViteJS",
+                "Tailwind CSS",
+                "Supabase",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Git",
+              ]}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <ProjectCard
+              ProjectThumbnail={"./porto/RacersEdge.png"}
+              ProjectTitle={"RacersEdge"}
+              ProjectDesc={
+                "RacersEdge is a concept website created for racing enthusiasts. This website is developed using React JS, HTML, CSS, Javascript, and Tailwind. RacersEdge offers a great user experience with responsive, sporty, and unique design. I'm responsible for developing the front end of this website."
+              }
+              ProjectLink={"https://racers-edge.vercel.app/"}
+              ProjectTags={[
+                "ReactJs",
+                "Tailwind CSS",
+                "Javascript",
                 "HTML",
                 "CSS",
                 "Git",
@@ -89,14 +108,13 @@ export const Projects = () => {
               ProjectThumbnail={"./porto/porto1.png"}
               ProjectTitle={"Lantera by Sakubi Teknologi Indonesia"}
               ProjectDesc={
-                "Lantera which stands for Lansia Sejahtera is a web based application developed to contribute in achieving SDGs in Good Health and Well Being by providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly."
+                "Lantera is a web based application developed to providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly. I was responsible for developing the front end of this website for Sakubi Teknologi Indonesia using Laravel, Bootstrap, Blade, HTML, CSS, and Git."
               }
               ProjectLink={"https://dev.kader.lantera.sakubiacademy.com"}
               ProjectTags={[
                 "Laravel",
                 "Bootstrap",
                 "Blade",
-                "MySql",
                 "HTML",
                 "CSS",
                 "Git",
@@ -105,39 +123,32 @@ export const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <ProjectCard
-              ProjectThumbnail={"./porto/porto1.png"}
-              ProjectTitle={"Lantera by Sakubi Teknologi Indonesia"}
-              ProjectDesc={
-                "Lantera which stands for Lansia Sejahtera is a web based application developed to contribute in achieving SDGs in Good Health and Well Being by providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly."
+              ProjectThumbnail={"./porto/vokasiBisa.png"}
+              ProjectTitle={
+                "VokasiBisa by Sakubi Teknologi Indonesia Landing Page"
               }
-              ProjectLink={"https://dev.kader.lantera.sakubiacademy.com"}
-              ProjectTags={[
-                "Laravel",
-                "Bootstrap",
-                "Blade",
-                "MySql",
-                "HTML",
-                "CSS",
-                "Git",
-              ]}
+              ProjectDesc={
+                "A Landing page for VokasiBisa by Sakubi Teknologi Indonesia A modern and responsive website as landing page for internship registration."
+              }
+              ProjectLink={"https://vokasibisa.id/"}
+              ProjectTags={["Laravel", "PHP", "Blade", "HTML", "CSS"]}
             />
           </SwiperSlide>
           <SwiperSlide>
             <ProjectCard
-              ProjectThumbnail={"./porto/porto1.png"}
-              ProjectTitle={"Lantera by Sakubi Teknologi Indonesia"}
+              ProjectThumbnail={"./porto/sakubi.png"}
+              ProjectTitle={"Sakubi Teknologi Indonesia Landing Page"}
               ProjectDesc={
-                "Lantera which stands for Lansia Sejahtera is a web based application developed to contribute in achieving SDGs in Good Health and Well Being by providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly."
+                "A Modern, Simple, and Responsive website as landing page for Sakubi Teknologi Indonesia. Developed using Laravel, Bootstrap, Blade, HTML, CSS, and PHP."
               }
-              ProjectLink={"https://dev.kader.lantera.sakubiacademy.com"}
+              ProjectLink={"https://sakubi.id/"}
               ProjectTags={[
                 "Laravel",
                 "Bootstrap",
                 "Blade",
-                "MySql",
                 "HTML",
                 "CSS",
-                "Git",
+                "PHP",
               ]}
             />
           </SwiperSlide>
@@ -150,8 +161,8 @@ export const Projects = () => {
             whileTap={"whileTap"}
           >
             <IoIosArrowDroprightCircle
-              size={50}
-              className="swiper-button-next cursor-pointer"
+              // size={50}
+              className="swiper-button-next cursor-pointer text-[30px] md:text-[50px]"
             />
           </motion.div>
         </motion.div>

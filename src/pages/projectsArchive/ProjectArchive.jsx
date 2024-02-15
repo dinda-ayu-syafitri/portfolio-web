@@ -1,7 +1,6 @@
 import React from "react";
-import { MainLayout } from "../../Layouts/MainLayout";
 import { Link } from "react-router-dom";
-import { Contact } from "../../modules/contact/Contact";
+import { MainLayout } from "../../Layouts/MainLayout";
 
 export const ProjectArchive = () => {
   return (

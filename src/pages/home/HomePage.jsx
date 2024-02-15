@@ -11,9 +11,11 @@ export const HomePage = () => {
   const hash = useLocation().hash;
 
   useEffect(() => {
-    const section = document.querySelector(hash);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+    if (hash) {
+      const section = document.querySelector(hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
     }
   }, [hash]);
 
