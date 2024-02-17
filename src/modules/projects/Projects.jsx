@@ -105,24 +105,6 @@ export const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <ProjectCard
-              ProjectThumbnail={"./porto/porto1.png"}
-              ProjectTitle={"Lantera by Sakubi Teknologi Indonesia"}
-              ProjectDesc={
-                "Lantera is a web based application developed to providing platform to do early detections and health report for elderly. Lantera will provide the health report data collected by Lantera Partners to Local Health Center (Puskesmas) to do early detections for elderly. I was responsible for developing the front end of this website for Sakubi Teknologi Indonesia using Laravel, Bootstrap, Blade, HTML, CSS, and Git."
-              }
-              ProjectLink={"https://dev.kader.lantera.sakubiacademy.com"}
-              ProjectTags={[
-                "Laravel",
-                "Bootstrap",
-                "Blade",
-                "HTML",
-                "CSS",
-                "Git",
-              ]}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <ProjectCard
               ProjectThumbnail={"./porto/vokasiBisa.png"}
               ProjectTitle={
                 "VokasiBisa by Sakubi Teknologi Indonesia Landing Page"
