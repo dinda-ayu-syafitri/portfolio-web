@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "VokasiBisa by Sakubi Teknologi Indonesia Landing Page",
+        "desc" : "Modern, Simple, and Clean Landing Page for VokasiBisa by Sakubi Teknologi Indonesia",
+        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
+        "role" : ["Frontend Developer"],
+        "type":["Team Project"],
+        "link": "https://vokasibisa.com"
+    },
+    {
+        "id": 2,
+        "title": "Sakubi Teknologi Indonesia Landing Page",
+        "desc" : "Modern, Simple, and Clean Landing Page for Sakubi Teknologi Indonesia",
+        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
+        "role" : ["Frontend Developer"],
+        "type":["Team Project"],
+        "link": "https://sakubi.com"
+    },
+    {
+        "id": 3,
+        "title": "Sakubi Teknologi Indonesia Official Website",
+        "desc" : "Modern, Simple, and Clean Official Website for Sakubi Teknologi Indonesia",
+        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
+        "role" : ["Frontend Developer"],
+        "type":["Team Project"],
+        "link": "https://sakubi.com"
+    },
+    {
+        "id": 4,
+        "title": "Sakubi Teknologi Indonesia Official Blog",
+        "desc" : "Modern, Simple, and Clean Official Blog for Sakubi Teknologi Indonesia",
+        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
+        "role" : ["Frontend Developer"],
+        "type":["Team Project"],
+        "link": "https://sakubi.com"
+    },
+    {
+        "id": 5,
+        "title": "Sakubi Teknologi Indonesia Official Blog",
+        "desc" : "Modern, Simple, and Clean Official Blog for Sakubi Teknologi Indonesia",
+        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
+        "role" : ["Frontend Developer"],
+        "type":["Team Project"],
+        "link": "https://sakubi.com"
+    }
+
+]
