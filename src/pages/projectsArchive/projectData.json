@@ -7,7 +7,8 @@
         "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
         "role" : ["Frontend Developer"],
         "type":["Team Project"],
-        "link": "https://vokasibisa.com"
+        "link": "https://vokasibisa.com",
+        "year": 2021
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
         "role" : ["Frontend Developer"],
         "type":["Team Project"],
-        "link": "https://sakubi.com"
+        "link": "https://sakubi.com",
+        "year": 2021
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
         "role" : ["Frontend Developer"],
         "type":["Team Project"],
-        "link": "https://sakubi.com"
+        "link": "https://sakubi.com",
+        "year": 2021
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
         "role" : ["Frontend Developer"],
         "type":["Team Project"],
-        "link": "https://sakubi.com"
+        "link": "https://sakubi.com",
+        "year": 2021
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
         "role" : ["Frontend Developer"],
         "type":["Team Project"],
-        "link": "https://sakubi.com"
+        "link": "https://sakubi.com",
+        "year": 2021
     }
 
 ]

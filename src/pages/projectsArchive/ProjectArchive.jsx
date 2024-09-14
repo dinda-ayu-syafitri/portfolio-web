@@ -17,6 +17,10 @@ const columns = [
     header: () => 'No.',
     cell: info => info.getValue(),
   }),
+  columnHelper.accessor('year', {
+    header: () => 'Year',
+    cell: info => info.getValue(),
+  }),
   columnHelper.accessor('title', {
     header: () => 'Project',
     cell: info => info.getValue(),
@@ -27,6 +31,10 @@ const columns = [
   }),
   columnHelper.accessor('desc', {
     header: () => 'Description',
+    cell: info => info.getValue(),
+  }),
+  columnHelper.accessor('role', {
+    header: () => 'Role',
     cell: info => info.getValue(),
   }),
 ]
