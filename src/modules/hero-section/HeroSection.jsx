@@ -41,13 +41,13 @@ export const HeroSection = () => {
         className="absolute top-0 flex w-fit gap-5"
       >
         <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
         <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
         <h3 className="text-[10rem] md:text-[15rem] opacity-[0.03] text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
       </motion.div>
       <motion.div
@@ -61,10 +61,10 @@ export const HeroSection = () => {
           HI, I&apos;M DINDA
         </motion.h1>
         <motion.h1
-          className="font-jura text-theme-orange text-6xl md:text-8xl font-bold"
+          className="font-jura text-theme-orange text-4xl md:text-7xl font-bold"
           variants={heroText}
         >
-          Web Developer
+          Software Engineer
         </motion.h1>
       </motion.div>
       <div className="flex justify-center md:basis-1/3 w-full">
@@ -78,13 +78,13 @@ export const HeroSection = () => {
         className="absolute bottom-0 flex w-fit gap-5"
       >
         <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
         <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
         <h3 className="text-[10rem] md:text-[15rem] opacity-5 text-nowrap whitespace-nowrap leading-none">
-          Website Developer
+          Software Engineer
         </h3>
       </motion.div>
     </section>

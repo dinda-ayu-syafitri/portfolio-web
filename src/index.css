@@ -13,8 +13,8 @@ body {
 }
 
 section {
-  height: 100vh;
-  scroll-snap-align: center;
+ min-height: 100vh;
+  /* scroll-snap-align: center; */
 }
 
 .swiper-pagination-bullet {

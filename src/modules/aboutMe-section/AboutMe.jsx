@@ -44,16 +44,10 @@ export const AboutMe = () => {
         className="w-[90vw] md:w-[50vw] text-xl text-center absolute"
       >
         <p className="mb-5">
-          As a passionate web developer, I am dedicated to creating captivating
-          digital experiences. With a vision of excellence, I strive to craft
-          pixel-perfect designs and bring them to life with clean and efficient
-          code.{" "}
+        As a passionate software engineer, I gain expertise in iOS and web development, dedicated to creating impactful user-centric software that solves user problems and enhances their experience.
         </p>
         <p>
-          Every opportunity and challenge is a chance for me to thrive and
-          learn, and I eagerly embrace them with enthusiasm and determination. I
-          am open to collaborating on exciting projects and am eager to bring my
-          skills and creativity to new ventures.
+        With extensive experience in iOS Development, Website Development, and project execution using the SCRUM method, I consistently strive to deliver high-quality solutions. My familiarity with Game Development and UI/UX Design further enriches my skill set. Eager to learn and grow continuously.
         </p>
       </motion.div>
     </section>
