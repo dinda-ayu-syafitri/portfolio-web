@@ -70,8 +70,8 @@ export const Contact = () => {
         style={{ x: bgAnimation }}
         className="bg-[url('/contact-bg-1.svg')] w-[100%] h-[100%] bg-cover absolute top-0 opacity-50"
       ></motion.div>
-      <div className="flex justify-between justify-items-center items-center h-full flex-wrap z-10 pt-5">
-        <div className="w-[100vw] md:w-[40vw] bg-theme-off-white bg-opacity-10 h-[20vh] md:h-full flex justify-center flex-col items-center">
+      <div className="flex justify-between justify-items-center items-center h-full flex-wrap z-10">
+        <div className="w-[100vw] md:w-[40vw] bg-theme-off-white bg-opacity-10 h-[20vh] md:h-full md:min-h-screen flex justify-center flex-col items-center">
           <motion.div
             style={{ y: textAnimation }}
             variants={textAnimationVariants}
@@ -91,7 +91,7 @@ export const Contact = () => {
             >
               <p>Want to work together?</p>
               <p>Feel free to contact me!</p>
-              <p>I’m open to freelancing!</p>
+              {/* <p>I’m open to freelancing!</p> */}
             </motion.div>
             <motion.div
               variants={textAnimationVariants}
