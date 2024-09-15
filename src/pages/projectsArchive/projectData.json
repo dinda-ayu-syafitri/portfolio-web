@@ -1,58 +1,177 @@
 [
-    {
-        "id": 1,
-        "title": "VokasiBisa by Sakubi Teknologi Indonesia Landing Page",
-        "desc" : "Modern, Simple, and Clean Landing Page for VokasiBisa by Sakubi Teknologi Indonesia",
-        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
-        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
-        "role" : ["Frontend Developer"],
-        "type":["Team Project"],
-        "link": "https://vokasibisa.com",
-        "year": 2021
-    },
-    {
-        "id": 2,
-        "title": "Sakubi Teknologi Indonesia Landing Page",
-        "desc" : "Modern, Simple, and Clean Landing Page for Sakubi Teknologi Indonesia",
-        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
-        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
-        "role" : ["Frontend Developer"],
-        "type":["Team Project"],
-        "link": "https://sakubi.com",
-        "year": 2021
-    },
-    {
-        "id": 3,
-        "title": "Sakubi Teknologi Indonesia Official Website",
-        "desc" : "Modern, Simple, and Clean Official Website for Sakubi Teknologi Indonesia",
-        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
-        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
-        "role" : ["Frontend Developer"],
-        "type":["Team Project"],
-        "link": "https://sakubi.com",
-        "year": 2021
-    },
-    {
-        "id": 4,
-        "title": "Sakubi Teknologi Indonesia Official Blog",
-        "desc" : "Modern, Simple, and Clean Official Blog for Sakubi Teknologi Indonesia",
-        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
-        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
-        "role" : ["Frontend Developer"],
-        "type":["Team Project"],
-        "link": "https://sakubi.com",
-        "year": 2021
-    },
-    {
-        "id": 5,
-        "title": "Sakubi Teknologi Indonesia Official Blog",
-        "desc" : "Modern, Simple, and Clean Official Blog for Sakubi Teknologi Indonesia",
-        "img": "https://i.ibb.co/7y3z3tL/vokasibisa.png",
-        "techStack": "HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, Blade",
-        "role" : ["Frontend Developer"],
-        "type":["Team Project"],
-        "link": "https://sakubi.com",
-        "year": 2021
-    }
-
+  {
+    "id": 1,
+    "title": "Pulse",
+    "desc": "Pulse is a personal safety app designed to monitor your heart rate and detect signs of panic or fear. When it identifies a sudden increase in heart rate, the app automatically sends SOS alerts to your emergency contacts. Additionally, it allows those contacts to call you directly and provides real-time location tracking to ensure help can reach you quickly in emergencies.",
+    "img": "./porto/Pulse.png",
+    "techStack": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "HealthKit",
+      "WatchKit",
+      "FireBase",
+      "APNs"
+    ],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "https://testflight.apple.com/join/FP5U793w",
+    "year": 2024,
+    "status": "testflight"
+  },
+  {
+    "id": 2,
+    "title": "PowerCals - Available on App Store",
+    "desc": "PowerCals is a 1RM (One Rep Max) calculator used by weightlifters to calculate maximum weight they can lift in one rep. PowerCal help users to calculate and track their 1RM progress, we also providing a feature to track users personal record, and even generating progressive weight planner.",
+    "img": "./porto/PowerCals.png",
+    "techStack": ["Swift", "SwiftUI", "UIKit", "SwiftData", "localization"],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "https://apps.apple.com/id/app/powercals/id6550904319",
+    "year": 2024,
+    "status": "appstore"
+  },
+  {
+    "id": 3,
+    "title": "MeowBites",
+    "desc": "MeowBites is a mindful eating app designed to motivate users to be mindful of what they eat, using characters to portray their daily nutrient intake progress. MeowBites developed through several iterations, with the goal of incorporating gamification to encourage mindful eating.",
+    "img": "./porto/MeowBites.png",
+    "techStack": ["Swift", "SwiftUI", "SwiftData"],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "",
+    "year": 2024,
+    "status": "development"
+  },
+  {
+    "id": 4,
+    "title": "Moodsic Journal",
+    "desc": "Moodsic Journal is a personal journaling app that enhances your experience with music. By recommending songs based on your mood, it helps you associate each day with a track, aiding in future reflection.",
+    "img": "./porto/Moodsic Journal.png",
+    "techStack": [
+      "Swift",
+      "PencilKit",
+      "MusicKit",
+      "CoreData",
+      "SwiftData",
+      "SwiftUI",
+      "UIKit"
+    ],
+    "role": ["iOS Developer"],
+    "type": ["Individual Project"],
+    "category": ["App"],
+    "link": "https://testflight.apple.com/join/Hv3hgsaj",
+    "year": 2024,
+    "status": "testflight"
+  },
+  {
+    "id": 5,
+    "title": "All Notes Matter",
+    "desc": "All Notes Matter is an app that breaks down your favorite songs into their individual instruments, letting you explore each unique note. All Notes Matter is developed for beginner to intermediate musicians who enjoy listening to music in detail and want to learn the distinct sounds of each instrument in a song",
+    "img": "./porto/All Notes Matter.png",
+    "techStack": ["Swift", "SpriteKit", "UIKit"],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "https://testflight.apple.com/join/Wdbqc95n",
+    "year": 2024,
+    "status": "testflight"
+  },
+  {
+    "id": 6,
+    "title": "noQ",
+    "desc": "noQ is an app that provides a pickup system to make queue shorter and more efficient for you! Now you can get your needs more quickly and enjoy the experience in not queuing. noQ is made for you who have busy schedule and limited time to queueing.",
+    "img": "./porto/noQ.png",
+    "techStack": ["Swift", "SwiftUI"],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "https://testflight.apple.com/join/FP5U793w",
+    "year": 2024,
+    "status": "testflight"
+  },
+  {
+    "id": 7,
+    "title": "dNotes",
+    "desc": "dNotes is A note taking website to capture, manage, and access notes everywhere and anywhere. Developed using React JS, HTML, CSS, Javascript, Tailwind, Supabase, this website got a lot of features such as authentication, CRUD, and many more. With responsive and clean design, dNotes offer a great user experience.",
+    "img": "./porto/dNotes.png",
+    "techStack": [
+      "ReactJs",
+      "ViteJS",
+      "Tailwind CSS",
+      "Supabase",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "role": ["Website Developer"],
+    "type": ["Individual Project"],
+    "category": ["Website"],
+    "link": "https://dnotes-the-notes.netlify.app/",
+    "year": 2024,
+    "status": "published public"
+  },
+  {
+    "id": 8,
+    "title": "RacersEdge",
+    "desc": "RacersEdge is a concept website created for racing enthusiasts. This website is developed using React JS, HTML, CSS, Javascript, and Tailwind. RacersEdge offers a great user experience with responsive, sporty, and unique design. I'm responsible for developing the front end of this website.",
+    "img": "./porto/RacersEdge.png",
+    "techStack": [
+      "ReactJs",
+      "Tailwind CSS",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "role": ["Website Developer"],
+    "type": ["Team Project"],
+    "category": ["Website"],
+    "link": "https://racers-edge.vercel.app/",
+    "year": 2024,
+    "status": "published public"
+  },
+  {
+    "id": 9,
+    "title": "VokasiBisa by Sakubi Teknologi Indonesia Landing Page",
+    "desc": "A Landing page for VokasiBisa by Sakubi Teknologi Indonesia A modern and responsive website as landing page for internship registration.",
+    "img": "./porto/vokasiBisa.png",
+    "techStack": ["Laravel", "PHP", "Blade", "HTML", "CSS"],
+    "role": ["FrontEnd Developer"],
+    "type": ["Team Project"],
+    "category": ["Website"],
+    "link": "https://vokasibisa.id/",
+    "year": 2024,
+    "status": "published public"
+  },
+  {
+    "id": 10,
+    "title": "Sakubi Teknologi Indonesia Landing Page",
+    "desc": "A Modern, Simple, and Responsive website as landing page for Sakubi Teknologi Indonesia. Developed using Laravel, Bootstrap, Blade, HTML, CSS, and PHP.",
+    "img": "./porto/sakubi.png",
+    "techStack": ["Laravel", "Bootstrap", "Blade", "HTML", "CSS", "PHP"],
+    "role": ["FrontEnd Developer"],
+    "type": ["Team Project"],
+    "category": ["Website"],
+    "link": "https://sakubi.id/",
+    "year": 2024,
+    "status": "published public"
+  },
+  {
+    "id": 11,
+    "title": "Taxonia Adventure",
+    "desc": "A 3D adventure game designed to engage students in learning about the Classification of Living Things, guiding them through the immersive world of Taxonia to explore and discover key concepts interactively.",
+    "img": "./porto/Taxonia Adventure.png",
+    "techStack": ["C#", "Unity", "3D Game", "Cinemachine"],
+    "role": ["Game Developer"],
+    "type": ["Team Project"],
+    "category": ["Game"],
+    "link": "https://github.com/dinda-ayu-syafitri/Taxonia",
+    "year": 2024,
+    "status": "published public"
+  }
 ]
