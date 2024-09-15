@@ -6,6 +6,7 @@ import { Projects } from "../../modules/projects/Projects";
 import { MainLayout } from "../../Layouts/MainLayout";
 import { Contact } from "../../modules/contact/Contact";
 import { useLocation } from "react-router-dom";
+import { ProjectsGrid } from "../../modules/projects/ProjectsGrid";
 
 export const HomePage = () => {
   const hash = useLocation().hash;
@@ -24,7 +25,8 @@ export const HomePage = () => {
       <HeroSection />
       <AboutMe />
       <SkillsExpertise />
-      <Projects />
+      {/* <Projects /> */}
+      <ProjectsGrid />
       <Contact />
     </MainLayout>
   );

@@ -6,6 +6,7 @@ import { SkillsExpertise } from "./modules/skills-expertise/SkillsExpertise";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomePage } from "./pages/home/HomePage";
 import { ProjectArchive } from "./pages/projectsArchive/ProjectArchive";
+import { UnderDevelopment } from "./pages/underDevelopment/UnderDevelopment";
 
 const router = createBrowserRouter([
   {
