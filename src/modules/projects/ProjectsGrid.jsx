@@ -7,7 +7,7 @@ export const ProjectsGrid = () => {
 
   return (
     <section className="py-20" id="projects">
-      <h3 className="text-3xl md:text-6xl font-jura font-bold text-theme-orange text-center my-5 md:mb-8">
+      <h3 className="text-3xl md:text-6xl font-jura font-bold text-theme-off-white text-center my-5 md:mb-8">
         Projects
       </h3>
       <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5 justify-center font-jura">
