@@ -10,8 +10,8 @@ export const ProjectsGrid = () => {
       <h3 className="text-3xl md:text-6xl font-jura font-bold text-theme-off-white text-center my-5 md:mb-8">
         Projects
       </h3>
-      <div className="flex mx-[2vw] md:mx-[5vw] gap-2 md:gap-5 justify-center font-jura">
-        <div className="grid grid-cols-3 gap-5 text-center justify-center w-2/4">
+      <div className="flex mx-[1vw] md:mx-[5vw] gap-2 md:gap-5 justify-center font-jura">
+        <div className="grid grid-cols-3 gap-5 text-center justify-center w-full md:w-2/4">
           <div
             className={`${
               projectCategory === "App"
@@ -44,7 +44,7 @@ export const ProjectsGrid = () => {
           </div>
         </div>
       </div>
-      <div className="mx-[2vw] md:mx-[5vw] md:px-10 mt-10 grid grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="mx-[2vw] md:mx-[5vw] md:px-10 mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
         {projectData
           .filter((project) => project.category.includes(projectCategory))
           .map((project) => (
