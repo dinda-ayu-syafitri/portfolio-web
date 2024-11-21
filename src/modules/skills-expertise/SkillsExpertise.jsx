@@ -33,7 +33,8 @@ export const SkillsExpertise = () => {
           initial="initialText"
           whileInView={"animateText"}
         >
-          Proficient in these technologies, I leverage them to build impactful user-centric software.
+          Proficient in these technologies, I leverage them to build impactful
+          user-centric software.
         </motion.p>
         {/* <motion.p
           variants={variants}
@@ -43,8 +44,8 @@ export const SkillsExpertise = () => {
           These are some of my skills and expertise
         </motion.p> */}
 
-<div>
-        {/* <motion.p
+        <div>
+          {/* <motion.p
         className="mt-6 mb-4 font-bold text-2xl"
           variants={variants}
           initial="initialText"
@@ -58,30 +59,78 @@ export const SkillsExpertise = () => {
             initial="initialBadge"
             whileInView={"animateBadge"}
           >
-            <Badge size="sm" variants={variants}>Swift</Badge>
-            <Badge size="sm" variants={variants}>UIKit</Badge>
-            <Badge size="sm" variants={variants}>SwiftUI</Badge>
-            <Badge size="sm" variants={variants}>Swift Data</Badge>
-            <Badge size="sm" variants={variants}>Core Data</Badge>
-            <Badge size="sm" variants={variants}>AVFoundation</Badge>
-            <Badge size="sm" variants={variants}>SpriteKit</Badge>
-            <Badge size="sm" variants={variants}>Apple Push Notification</Badge>
-            <Badge size="sm" variants={variants}>HealthKit</Badge>
-            <Badge size="sm" variants={variants}>HTML</Badge>
-            <Badge size="sm" variants={variants}>CSS</Badge>
-            <Badge size="sm" variants={variants}>Javascript</Badge>
-            <Badge size="sm" variants={variants}>Typescript</Badge>
-            <Badge size="sm" variants={variants}>PHP</Badge>
-            <Badge size="sm" variants={variants}>Next.Js</Badge>
-            <Badge size="sm" variants={variants}>ReactJS</Badge>
-            <Badge size="sm" variants={variants}>Vite</Badge>
-            <Badge size="sm" variants={variants}>Laravel</Badge>
-            <Badge size="sm" variants={variants}>NodeJS</Badge>
-            <Badge size="sm" variants={variants}>C#</Badge>
-            <Badge size="sm" variants={variants}>Git</Badge>
-            <Badge size="sm" variants={variants}>Vercel</Badge>
-            <Badge size="sm" variants={variants}>Firebase</Badge>
-            <Badge size="sm" variants={variants}>Supabase</Badge>
+            <Badge size="sm" variants={variants}>
+              Swift
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              UIKit
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              SwiftUI
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Swift Data
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Core Data
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              AVFoundation
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              SpriteKit
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Apple Push Notification
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              HealthKit
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              HTML
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              CSS
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Javascript
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Typescript
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              PHP
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Next.Js
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              ReactJS
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Vite
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Laravel
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              NodeJS
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              C#
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Git
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Vercel
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Firebase
+            </Badge>
+            <Badge size="sm" variants={variants}>
+              Supabase
+            </Badge>
           </motion.div>
         </div>
 
@@ -159,7 +208,7 @@ export const SkillsExpertise = () => {
           </motion.div>
         </div> */}
       </div>
-      <div className="flex justify-center items-center justify-items-center bg-theme-off-white h-1/4 md:h-full md:min-h-screen w-full md:w-1/3 text-theme-dark-blue px-5 order-1 md:order-2 md:pt-0 pt-14">
+      <div className="flex justify-center items-center justify-items-center bg-theme-off-white h-1/4 md:h-full md:min-h-screen w-full md:w-1/3 text-theme-dark-blue px-5 order-1 md:order-2 md:py-0 py-14">
         <motion.h3
           className="text-3xl md:text-6xl font-jura font-bold"
           variants={variants}
