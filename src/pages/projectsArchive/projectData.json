@@ -173,5 +173,25 @@
     "link": "https://github.com/dinda-ayu-syafitri/Taxonia",
     "year": 2024,
     "status": "published public"
+  },
+  {
+    "id": 12,
+    "title": "NataEdu Translation and Interpreting Landing Page",
+    "desc": "A Clean, Simple, and Responsive website as landing page for NataEdu Translation and Interpreting. Developed using NextJS, Tailwind CSS, ReactJS, HTML, CSS, and Typescript.",
+    "img": "./porto/nataedu.png",
+    "techStack": [
+      "NextJS",
+      "Tailwind CSS",
+      "ReactJS",
+      "Typescript",
+      "HTML",
+      "CSS"
+    ],
+    "role": ["Fullstack Developer"],
+    "type": ["Individual Project"],
+    "category": ["Website"],
+    "link": "https://nataedutranslation.com/",
+    "year": 2024,
+    "status": "published public"
   }
 ]

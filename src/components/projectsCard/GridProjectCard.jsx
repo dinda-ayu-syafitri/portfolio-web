@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const GridProjectCard = ({ project }) => {
   return (
     <div className="rounded-xl border-2 border-theme-orange border-solid p-3 h-full">
-      <div className="flex flex-col justify-between h-full">
+      <div className="flex flex-col justify-between h-full text-theme-dark-blue">
         <img
           src={project.img}
           alt=""
