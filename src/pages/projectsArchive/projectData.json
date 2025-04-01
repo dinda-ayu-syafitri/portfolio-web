@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 6,
     "title": "Pulse",
     "desc": "Pulse is a personal safety app designed to monitor your heart rate and detect signs of panic or fear. When it identifies a sudden increase in heart rate, the app automatically sends SOS alerts to your emergency contacts. Additionally, it allows those contacts to call you directly and provides real-time location tracking to ensure help can reach you quickly in emergencies.",
     "img": "./porto/Pulse.png",
@@ -21,7 +21,7 @@
     "status": "testflight"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "PowerCals - Available on App Store",
     "desc": "PowerCals is a 1RM (One Rep Max) calculator used by weightlifters to calculate maximum weight they can lift in one rep. PowerCal help users to calculate and track their 1RM progress, we also providing a feature to track users personal record, and even generating progressive weight planner.",
     "img": "./porto/PowerCals.png",
@@ -34,7 +34,7 @@
     "status": "appstore"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "MeowBites",
     "desc": "MeowBites is a mindful eating app designed to motivate users to be mindful of what they eat, using characters to portray their daily nutrient intake progress. MeowBites developed through several iterations, with the goal of incorporating gamification to encourage mindful eating.",
     "img": "./porto/MeowBites.png",
@@ -47,7 +47,7 @@
     "status": "development"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Moodsic Journal",
     "desc": "Moodsic Journal is a personal journaling app that enhances your experience with music. By recommending songs based on your mood, it helps you associate each day with a track, aiding in future reflection.",
     "img": "./porto/Moodsic Journal.png",
@@ -68,7 +68,7 @@
     "status": "testflight"
   },
   {
-    "id": 5,
+    "id": 2,
     "title": "All Notes Matter",
     "desc": "All Notes Matter is an app that breaks down your favorite songs into their individual instruments, letting you explore each unique note. All Notes Matter is developed for beginner to intermediate musicians who enjoy listening to music in detail and want to learn the distinct sounds of each instrument in a song",
     "img": "./porto/All Notes Matter.png",
@@ -81,7 +81,7 @@
     "status": "testflight"
   },
   {
-    "id": 6,
+    "id": 1,
     "title": "noQ",
     "desc": "noQ is an app that provides a pickup system to make queue shorter and more efficient for you! Now you can get your needs more quickly and enjoy the experience in not queuing. noQ is made for you who have busy schedule and limited time to queueing.",
     "img": "./porto/noQ.png",
@@ -191,6 +191,27 @@
     "type": ["Individual Project"],
     "category": ["Website"],
     "link": "https://nataedutranslation.com/",
+    "year": 2024,
+    "status": "published public"
+  },
+  {
+    "id": 13,
+    "title": "DuaKomaLima - Available on App Store",
+    "desc": "DuaKomaLima is an application designed to simplify the calculation and payment of your zakat, making this worship easier, more practical, and accurate. With automatic calculation features, payment reminders, and detailed zakat information, DuaKomaLima ensures that you fulfill your zakat obligations with simple yet meaningful steps.",
+    "img": "./porto/duakomalima.png",
+    "techStack": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "Firebase",
+      "XCode Cloud",
+      "Xcodegen",
+      "Local Notification"
+    ],
+    "role": ["iOS Developer"],
+    "type": ["Team Project"],
+    "category": ["App"],
+    "link": "https://apps.apple.com/id/app/duakomalima/id6736634772",
     "year": 2024,
     "status": "published public"
   }
