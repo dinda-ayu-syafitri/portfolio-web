@@ -214,5 +214,18 @@
     "link": "https://apps.apple.com/id/app/duakomalima/id6736634772",
     "year": 2024,
     "status": "published public"
+  },
+  {
+    "id": 14,
+    "title": "102,7 MTB FM Surabaya - Available on App Store",
+    "desc": "A 24/7 radio streaming application that brings you the latest hits, from Indonesian favorites and K-Pop to international charts. In addition to nonstop music, it provides local news and entertainment updates to keep you informed every day. With features like a sleep timer and volume controller, the app delivers a smooth and practical listening experience anytime, anywhere.",
+    "img": "./porto/mtbfmsurabaya.png",
+    "techStack": ["Swift", "SwiftUI", "AVFoundation", "URLSession"],
+    "role": ["iOS Developer"],
+    "type": ["Solo Freelance Project"],
+    "category": ["App"],
+    "link": "https://apps.apple.com/id/app/102-7-mtb-fm-surabaya/id6752221361",
+    "year": 2025,
+    "status": "published public"
   }
 ]
