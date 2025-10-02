@@ -227,5 +227,44 @@
     "link": "https://apps.apple.com/id/app/102-7-mtb-fm-surabaya/id6752221361",
     "year": 2025,
     "status": "published public"
+  },
+  {
+    "id": 15,
+    "title": "Metrolink Landing Page",
+    "desc": "A corporate website designed for Metrolink, one of Timor-Leste’s leading ISP and ICT solution providers. The website highlights internet services, network solutions, and technology products, while also featuring company news, media updates, and partnerships. With a clean, responsive layout, it ensures a professional online presence and easy access to information for customers and businesses alike.",
+    "img": "./porto/metrolink.png",
+    "techStack": ["Wordpress", "HTML", "CSS", "Javascript", "PHP"],
+    "role": ["Website Developer"],
+    "type": ["Team Freelance Project"],
+    "category": ["Website"],
+    "link": "https://metrolink.tl/",
+    "year": 2025,
+    "status": "published public"
+  },
+  {
+    "id": 16,
+    "title": "Decardo Landing Page",
+    "desc": "A corporate website designed for Decardo, an accounting firm based in Timor-Leste. The site highlights their accounting and financial services while presenting the company profile in a professional and accessible way. With a clean, responsive design and straightforward navigation, the website helps build trust and makes it easy for clients to learn more about Decardo’s expertise..",
+    "img": "./porto/decardo.png",
+    "techStack": ["Wordpress", "HTML", "CSS", "Javascript", "PHP"],
+    "role": ["Website Developer"],
+    "type": ["Team Freelance Project"],
+    "category": ["Website"],
+    "link": "https://decardo.tl/",
+    "year": 2025,
+    "status": "published public"
+  },
+  {
+    "id": 17,
+    "title": "Aniwayang Landing Page",
+    "desc": "A creative website built for Aniwayang Studio’s Desa Timun.A responsive, user-friendly interface with integrated dynamic content sections such as episodes, behind-the-scenes stories, and project showcases. Developed to focused on performance, accessibility, and clean code implementation to ensure a smooth browsing experience across devices.",
+    "img": "./porto/aniwayang.png",
+    "techStack": ["Wordpress", "HTML", "CSS", "Javascript", "PHP"],
+    "role": ["Website Developer"],
+    "type": ["Team Freelance Project"],
+    "category": ["Website"],
+    "link": "https://desatimun.com/",
+    "year": 2025,
+    "status": "published public"
   }
 ]
